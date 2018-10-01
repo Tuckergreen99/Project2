@@ -3,10 +3,10 @@ const PROMPT = require('readline-sync');
 
 let policyNum, accidentCost;
 let custFirstName, custLastName, custAge;
-let dueDate, atFaultNum, ageFee, totalBill;
+let dueDate, atFaultNum, totalBill;
 
 const  BASE_PRICE = 100, RANGE1 = 15, RANGE2 = 30, RANGE3 = 45, RANGE4 = 60
-const AGEFEE1 = 20, AGEFEE2 = 10, AGEFEE3 = 30, ATFAULT = 50 ;
+const AGEFEE1 = 20, AGEFEE2 = 10, AGEFEE3 = 30 ;
 
 
 function main() {
